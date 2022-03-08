@@ -2,6 +2,7 @@ package standard.chapter02;
 
 public class PrintfEx2 {
 	public static void main(String[] args) {
+		
 		//printf 활용방법2
 		byte b = 1;
 		short s = 2;
