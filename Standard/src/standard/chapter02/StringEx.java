@@ -19,9 +19,6 @@ public class StringEx {
 		
 		//문자열과 만나면 무엇이든 문자열로 변한다.
 		
-		
-		
-		
 	}
 
 }
