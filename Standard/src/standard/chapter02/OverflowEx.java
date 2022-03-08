@@ -2,6 +2,7 @@ package standard.chapter02;
 
 public class OverflowEx {
 	public static void main(String[] args) {
+		
 		//오버플로우 확인	
 		short sMin = -32768;	//short의 최솟값
 		short sMax = 32767;		//short의 최댓값
