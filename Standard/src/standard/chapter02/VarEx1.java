@@ -3,6 +3,8 @@ package standard.chapter02;
 public class VarEx1 {
 	public static void main(String[] args) {
 		
+		//변수의 선언과 초기화
+		
 		int year = 10; //변수 year을 선언하고, 10으로 초기화한다.
 		int age = 14;
 		
