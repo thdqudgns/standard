@@ -2,6 +2,7 @@ package standard.chapter02;
 
 public class CastingEx2 {
 	public static void main(String[] args) {
+	
 		//정수형 간의 형변환
 		//변환하고자 하는 타입을 괄호와 함께 붙여주기만 하면 된다.
 		
