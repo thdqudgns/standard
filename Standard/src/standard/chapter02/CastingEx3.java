@@ -2,6 +2,7 @@ package standard.chapter02;
 
 public class CastingEx3 {
 	public static void main(String[] args) {
+		
 		//실수형 간의 형변환
 		//변환하고자 하는 타입을 괄호와 함께 붙여주기만 하면 된다.
 		float f = 9.1234567f;
