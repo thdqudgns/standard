@@ -2,7 +2,8 @@ package standard.chapter02;
 
 public class CharToCode {
 	public static void main(String[] args) {
-		//문자를 코드로 = 인코딩.
+		
+		//문자를 코드로 = 인코딩
 		char ch = 'A';	// A는 정수로 65이다.
 		int code = (int)ch;	//ch에 저장된 값을 int형으로 변환하여 저장한다.
 		
