@@ -2,6 +2,7 @@ package standard.chapter02;
 
 public class CastingEx4 {
 	public static void main(String[] args) {
+	
 		//정수형과 실수형 간의 형변환
 		int i = 91234567;		//8자리의 10진수
 		float f = (float)i;		//int를 float로 형변환
