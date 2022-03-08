@@ -6,7 +6,7 @@
 * [printf 활용방법2, 지시자](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/PrintfEx2.java)
 * [화면에서 입력받기](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/ScannerEx.java)
 * [문자를 코드로 바꾸기(인코딩)](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/CharToCode.java)
-* [특별한 문자 역슬래쉬 \](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/SpecialCharEx.java)
+* [특별한 문자 역슬래쉬](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/SpecialCharEx.java)
 * [오버플로우](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/OverflowEx.java)
 * [실수형의 정밀도](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/FloatEx1.java)
 * [실수형의 정밀도에 따른 부동소수점 오차](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/FloatToBinEx.java)
