@@ -12,7 +12,6 @@ public class PrintfEx1 {
 		double d = 1.23456789;
 		
 		//같은 값이라도 다른 형식으로 출력하고 싶을 때 printf를 쓴다.
-		
 		System.out.printf("f1=%f, %e, %g%n", f1, f1, f1); //f1=0.100000, 1.000000e-01, 0.100000
 		System.out.printf("f2=%f, %e, %g%n", f2, f2, f2); //f2=10.000000, 1.000000e+01, 10.0000
 		System.out.printf("f3=%f, %e, %g%n", f3, f3, f3); //f3=3140.000000, 3.140000e+03, 3140.00
