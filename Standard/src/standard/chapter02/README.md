@@ -1,1 +1,16 @@
-# 📌: Chapter2 변수
+# 📌 Chapter2 변수
+* [변수의 선언과 초기화](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/VarEx1.java)
+* [두 변수의 값 교환하기](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/VarEx2.java)
+* [문자열 더하기](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/StringEx.java)
+* [printf 활용방법1](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/PrintfEx1.java)
+* [printf 활용방법2, 지시자](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/PrintfEx2.java)
+* [화면에서 입력받기](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/ScannerEx.java)
+* [문자를 코드로 바꾸기(인코딩)](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/CharToCode.java)
+* [특별한 문자 역슬래쉬 \](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/SpecialCharEx.java)
+* [오버플로우](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/OverflowEx.java)
+* [실수형의 정밀도](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/FloatEx1.java)
+* [실수형의 정밀도에 따른 부동소수점 오차](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/FloatToBinEx.java)
+* [형변환 방법](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/CastingEx1.java)
+* [정수형 간의 형변환](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/CastingEx2.java)
+* [실수형 간의 형변환](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/CastingEx3.java)
+* [정수형과 실수형 간의 형변환](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter02/CastingEx4.java)
