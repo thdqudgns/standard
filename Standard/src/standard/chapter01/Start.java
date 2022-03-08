@@ -1,4 +1,4 @@
-package java.chapter01;
+package standard.chapter01;
 
 public class Start {
 	
