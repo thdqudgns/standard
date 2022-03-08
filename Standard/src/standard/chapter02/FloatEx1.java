@@ -2,6 +2,7 @@ package standard.chapter02;
 
 public class FloatEx1 {
 	public static void main(String[] args) {
+		
 		//실수형의 범위와 정밀도
 		float f = 9.12345678901234567890f;
 		float f2 = 1.2345678901234567890f;
