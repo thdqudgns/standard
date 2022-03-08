@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ScannerEx {
 	public static void main(String[] args) {
+		
 		//화면에서 입력받기
 		Scanner scanner = new Scanner(System.in);
 		
