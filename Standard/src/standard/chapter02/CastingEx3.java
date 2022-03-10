@@ -7,7 +7,8 @@ public class CastingEx3 {
 		//변환하고자 하는 타입을 괄호와 함께 붙여주기만 하면 된다.
 		float f = 9.1234567f;
 		double d = 9.1234567;
-		double d2 = (double)f;
+		double d2 = (double)f; //4byte인 float형을 8byte인 double형으로 형변환
+		//작은 데이터에서 큰 데이터로 형변환 할 때는 데이터타입을 적어주지 않아도 자동형변환 된다.
 		
 		System.out.printf("f =%20.18f\n", f); //f =9.123456954956055000
 		System.out.printf("d =%20.18f\n", d); //d =9.123456700000000000
