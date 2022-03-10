@@ -1,3 +1,20 @@
+## 목차 정리
+* [Chapter2 변수](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter02)
+* [Chapter3 연산자](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter03)
+* [Chapter4 조건문과 반복문](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter04)
+* [Chapter5 배열(Array)](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter05)
+* [Chapter6 객체지향 프로그래밍1](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter06)
+* [Chapter7 객체지향 프로그래밍2](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter07)
+* [Chapter8 예외처리(Exception Handling)](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter08)
+* [Chapter9 java.lang패키지와 유용한 클래스](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter09)
+* [Chapter10 날짜와 시간 & 형식화](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter10)
+* [Chapter11 컬렉션 프레임웍](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter11)
+* [Chapter12 지네릭스, 열거형, 어노테이션](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter12)
+* [Chapter13 쓰레드(Thread)](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter13)
+* [Chapter14 람다와 스트림](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter14)
+* [Chapter15 입출력(I/O)](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter15)
+* [Chapter16 네트워킹(Networking)](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter16)
+
 ## :pushpin: 자바란?
 - 썬 마이크로시스템즈에서 개발하여 1996년 1월에 공식적으로 발표한 객체지향 프로그래밍 언어이다.
 - 자바는 풍부한 클래스 라이브러리(Java API)를 통해 프로그래밍에 필요한 요소들을 기본적으로 지원하기 때문에, 개발자는 이 클래스 라이브러리만을 잘 활용해도 강력한 기능의 자바 프로그램을 작성할 수 있다.
@@ -12,6 +29,3 @@
 5. **네트워크와 분산처리를 지원한다** : 풍부하고 다양한 네트워크 프로그래밍 라이브러리(Java API)를 통해 비교적 짧은 시간에 네트워크 관련 프로그램을 쉽게 개발할 수 있도록 지원한다.
 6. **멀티쓰레드를 지원한다** : 자바에서 개발되는 멀티쓰레드 프로그램은 시스템과는 관계없이 구현가능하며, 관련된 라이브러리가 제공되므로 구현이 쉽다. 여러 쓰레드에 대한 스케줄링은 자바 인터프리터가 담당한다.
 7. **동적로딩(Dynamic Loading)을 지원한다** : 실행 시에 모든 클래스가 로딩되지 않고, 필요한 시점에 클래스를 로딩하여 사용할 수 있다. 일부 클래스가 변경되어도 전체 어플리케이션을 다시 컴파일하지 않아도 된다.
-
-## 목차 정리
-* [Chapter2 변수](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter02)
