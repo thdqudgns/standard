@@ -8,12 +8,12 @@ public class ScannerEx {
 		//화면에서 입력받기
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("두 자리 정수를 하나 입력해주세요.> ");
-		String input = scanner.nextLine();
+		System.out.print("두 자리 정수를 하나 입력해주세요.> "); //두 자리 정수를 하나 입력해주세요.> 
+		String input = scanner.nextLine(); //예) 22입력
 		int num = Integer.parseInt(input); //입력받은 문자열을 숫자로 변환
 		
-		System.out.println("입력내용 : " + input);
-		System.out.printf("num=%d%n", num);
+		System.out.println("입력내용 : " + input); //입력내용 : 22
+		System.out.printf("num=%d%n", num); //num=22
 	}
 
 }
