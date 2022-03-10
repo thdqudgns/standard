@@ -27,9 +27,9 @@ public class PrintfEx2 {
 		//%c : 문자로 출력
 		//%s : 문자열로 출력
 		
-		System.out.printf("b=%d%n", b); //%d로 b를 10진 형식으로 출력하고, %n으로 줄바꿈
-		System.out.printf("s=%d%n", s); //%d로 s를 10진 형식으로 출력하고, %n으로 줄바꿈
-		System.out.printf("c=%c, %d %n", c, (int)c); //%c로 c를 문자로 출력하고, %d로 (int)c를 10진 형식으로 출력하고, %n으로 줄바꿈
+		System.out.printf("b=%d%n", b); //b=1 - %d로 b를 10진 형식으로 출력하고, %n으로 줄바꿈
+		System.out.printf("s=%d%n", s); //s=2 - %d로 s를 10진 형식으로 출력하고, %n으로 줄바꿈
+		System.out.printf("c=%c, %d %n", c, (int)c); //c=A, 65 - %c로 c를 문자로 출력하고, %d로 (int)c를 10진 형식으로 출력하고, %n으로 줄바꿈
 		//char 타입의 값을 10진수로 출력하려면, int타입으로 형변환해야 한다.
 		
 		//출력될 값이 차지할 공간을 숫자로 지정할 수 있다.
@@ -37,12 +37,12 @@ public class PrintfEx2 {
 		System.out.printf("finger=[%-5d]%n", finger); // finger=[10   ]
 		System.out.printf("finger=[%05d]%n", finger); // finger=[00010]
 		
-		System.out.printf("big=%d%n", big);
-		System.out.printf("hex=%#x%n", hex);	// '#'은 접두사(16진수 0x, 8진수 0)
+		System.out.printf("big=%d%n", big); //big=100000000000
+		System.out.printf("hex=%#x%n", hex); //hex=0xffffffffffffffff - '#'은 접두사(16진수 0x, 8진수 0)
 		
-		System.out.printf("octNum=%o, %d%n", octNum, octNum); //8진수로 한 번, 10진수로 한 번 출력.
-		System.out.printf("hexNum=%x, %d%n", hexNum, hexNum); //16진수로 한 번, 10진수로 한 번 출력.
-		System.out.printf("binNum=%s, %d%n", Integer.toBinaryString(binNum), binNum); //2진수로 한 번, 10진수로 한 번 출력.
+		System.out.printf("octNum=%o, %d%n", octNum, octNum); //octNum=10, 8 - 8진수로 한 번, 10진수로 한 번 출력.
+		System.out.printf("hexNum=%x, %d%n", hexNum, hexNum); //hexNum=10, 16 - 16진수로 한 번, 10진수로 한 번 출력.
+		System.out.printf("binNum=%s, %d%n", Integer.toBinaryString(binNum), binNum); //binNum=10, 2 - 2진수로 한 번, 10진수로 한 번 출력.
 	}
 
 }
