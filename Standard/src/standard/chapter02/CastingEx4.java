@@ -16,8 +16,8 @@ public class CastingEx4 {
 		
 		System.out.printf("i=%d\n", i); //i=91234567
 		System.out.printf("f=%f i2=%d\n", f, i2); //f=91234568.000000 i2=91234568 -> 정밀도 때문에 값이 변함.
-		System.out.printf("d=%f i3=%d\n", d, i3);
-		System.out.printf("(int)%f=%d\n", f2, i4);
+		System.out.printf("d=%f i3=%d\n", d, i3); //d=91234567.000000 i3=91234567
+		System.out.printf("(int)%f=%d\n", f2, i4); //(int)1.666000=1
 	}
 
 }
