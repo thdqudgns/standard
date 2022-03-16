@@ -3,7 +3,7 @@ package standard.chapter03;
 public class OperatorEx24 {
 	public static void main(String args[]) {
 		
-		//논리연산자 &&, ||, ! 활용
+		//논리연산자 &&, ||, ! 활용. &&가 우선순위가 높아서 괄호를 사용해주어야 한다
 		
 		int x = 0; 		//0으로 초기화
 		char ch = ' ';	//공백으로 초기화
