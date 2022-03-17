@@ -1,7 +1,7 @@
 # 📌 조건문과 반복문(if, switch, for, while statement)
 * [01 if문, 조건식이 참일 때 괄호 안의 코드가 수행된다](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter04/FlowEx01.java)
 * [02 블럭으로 감싸지 않고 여러 줄의 코드를 작성할 경우, 조건식 바로 다음에 오는 하나의 문장만 if문에 속하게 된다](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter04/FlowEx02.java)
-* [03 ](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter04/FlowEx03.java)
+* [03 if-else문, 조건식의 결과가 거짓일 때 else블럭의 문장을 수행한다](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter04/FlowEx03.java)
 * [04 ](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter04/FlowEx04.java)
 * [05 ](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter04/FlowEx05.java)
 * [06 ](https://github.com/thdqudgns/standard/blob/main/Standard/src/standard/chapter04/FlowEx06.java)
