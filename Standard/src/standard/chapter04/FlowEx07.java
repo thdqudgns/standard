@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class FlowEx07 {
 	public static void main(String[] args) {
 		
-		//Scanner와 switch문을 이용해 가위바위보 게임 만들기 + Math.random()
+		//Scanner와 switch문을 이용해 가위바위보 게임 만들기, 가위바위보에 숫자 부여 + Math.random()
+		
+		//가위바위보에 숫자를 부여하여 이기고, 지고, 비기는 상황을 설정했다
 		
 		System.out.print("가위(1), 바위(2), 보(3) 중 하나를 입력하세요.>");
 		
@@ -17,13 +19,13 @@ public class FlowEx07 {
 		System.out.println("컴은 " + com + "입니다.");
 
 		switch(user-com) {
-			case 2: case -1:
+			case 2: case -1:	//가위-바위, 바위-보 = -1, 보-가위 = 2
 				System.out.println("당신이 졌습니다.");
 				break;
-			case 1: case -2:
+			case 1: case -2:	//바위-가위, 보-바위 = 1, 가위-보 = -2
 				System.out.println("당신이 이겼습니다.");
 				break;
-			case 0:
+			case 0:				//비기면 0
 				System.out.println("비겼습니다.");
 				break;	//마지막 문장이므로 break를 사용할 필요가 없다.
 		}
