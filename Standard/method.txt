@@ -1,0 +1,116 @@
+메소드 정리
+
+		/* InputStream java.lang.System.in
+		 * 
+		 * "표준" 입력 스트림. 
+		 * 이 스트림은 이미 열려 있으며 입력 데이터를 제공할 준비가 되었습니다. 
+		 * 일반적으로 이 스트림은 키보드 입력 또는 호스트 환경 또는 사용자가 지정한 다른 입력 소스에 해당합니다.
+		 */
+
+		/* String java.util.Scanner.nextLine()
+		 * 
+		 * 현재 줄을 지나 이 스캐너를 진행하고 건너뛴 입력을 반환합니다.
+		 * 이 메서드는 끝에 있는 줄 구분 기호를 제외한 현재 줄의 나머지 부분을 반환합니다. 
+		 * 위치는 다음 줄의 시작 부분으로 설정됩니다.
+		 * 
+		 * 이 메서드는 줄 구분 기호를 찾는 입력을 계속 검색하므로 
+		 * 줄 구분 기호가 없는 경우 건너뛸 줄을 검색하는 모든 입력을 버퍼링할 수 있습니다.
+		 * 
+		 * 반환값:
+		 * 	건너뛴 줄
+		 * 예외:
+		 * 	NoSuchElementException - 행을 찾을 수 없는 경우
+		 * 	IllegalStateException - 이 스캐너가 닫혀 있는 경우
+		 */
+		
+		/* int java.lang.Integer.parseInt(String s)
+		 * 
+		 * 문자열을 정수로 해석합니다. 
+		 * 문자열의 문자는 모두 10진수여야 합니다.
+		 * 단, 첫 번째 문자는 음의 값을 나타내는 ASCII 마이너스 기호 '-'(\u005Cu002D) 
+		 * 또는 양의 값을 나타내는 ASCII 플러스 기호 '+'(\u005Cu002B)일 수 있습니다. 
+		 * 인수와 기수 10이 parseInt(java.lang.String, int) 메서드에 인수로 지정된 것과 동일하게 결과 정수 값이 반환됩니다.
+		 * 
+		 * 파라미터:
+		 * 	구문 분석할 int 표현을 포함하는 문자열
+		 * 반환값:
+		 * 	인수로 표시되는 10진수 정수 값.
+		 * 예외:
+		 * 	NumberFormatException - 문자열에 구문 분석 가능한 정수가 포함되지 않은 경우.
+		 */
+		 
+		/* char java.lang.String.charAt(int index)
+		
+		 * 지정된 인덱스의 char 값을 반환합니다.
+		 * 인덱스의 범위는 0 ~ length() - 1 입니다. 
+		 * 배열 인덱싱과 같이 시퀀스의 첫 번째 문자 값은 인덱스 0, 다음 문자 값은 인덱스 1입니다.
+		 * 
+		 * 인덱스로 지정된 char 값이 대리일 경우 대리 값이 반환됩니다.
+		 * 
+		 * 지정자: 
+		 * 	CharSequence의 charAt(...)
+		 * 파라미터: 
+		 * 	char 값의 인덱스를 인덱싱합니다.
+		 * 반환값: 
+		 * 	이 문자열의 지정된 인덱스에 있는 char 값을 반환합니다. 첫 번째 문자 값은 인덱스0 입니다
+		 * 예외:
+		 * 	IndexOutOfBoundsException - index 인수가 음수이거나 이 문자열 길이 이상인 경우.
+		 */
+		 
+		/* String java.lang.Integer.toBinaryString(int i)
+		 * 
+		 * 10진수 정수형을 2진수의 부호 없는 정수형으로 반환합니다.
+		 * 
+		 * Parameters:
+		 * 		i an integer to be converted to a string.
+		 * Returns:
+		 * 		the string representation of the unsigned integer value represented by the argument in binary (base 2).
+		 * Since:
+		 * 		JDK1.0.2
+		 * See Also:
+		 * 		parseUnsignedInt(String, int)
+		 * 		toUnsignedString(int, int)
+		 */
+	
+		/* String java.lang.String.substring(int beginIndex)
+		 * 
+		 * 이 문자열의 하위 문자열인 문자열을 반환합니다. 
+		 * 서브스트링은 지정된 인덱스의 문자로 시작하여 이 문자열의 끝까지 확장됩니다.
+		 * 인덱스의 시작은 0이다.
+		 *  
+		 *  Examples: 
+		 *  	"unhappy".substring(2) returns "happy"
+		 *  	"Harbison".substring(3) returns "bison"
+		 *  	"emptiness".substring(9) returns "" (an empty string)
+		 *  
+		 *  Parameters:
+		 *  	beginIndex the beginning index, inclusive.
+		 *  Returns:
+		 *  	the specified substring.
+		 *  Throws:
+		 *  	IndexOutOfBoundsException - if beginIndex is negative or larger than the length of this String object.
+		 */
+	
+		/* int java.lang.String.length()
+		 * 
+		 * 이 문자열의 길이를 반환합니다.
+		 * 길이는 문자열 내의 Unicode 코드 단위 수와 동일합니다.
+		 * 
+		 * Specified by:
+		 * 		length() in CharSequence
+		 * Returns:
+		 * 		the length of the sequence of characters represented by this object.
+		 */
+		 
+		/* double java.lang.Math.random()
+		 * 
+		 * 0.0 이상 1.0 미만인 양수인 실수 double형 값을 반환합니다.
+		 * 반환되는 값은 해당 범위에서 (약) 균일한 분포를 사용하여 의사 난수로 선택됩니다.
+		 * 
+		 * 반환값:
+		 * 		0.0 이상 1.0 미만의 의사 난수 배율.
+		 * 
+		 * 참고 항목:
+		 * 		Random.next Double()
+		 */
+		 
