@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class ScannerEx {
 	public static void main(String[] args) {
 		
-		//Scanner : 화면에서 입력받기
+		//Scanner : 화면에서 입력받기 + System.in, Scanner.nextLine(), Integer.parseInt()
 		
 		Scanner scanner = new Scanner(System.in); //스캐너 객체를 생성하여 입력받을 준비를 한다
 		
-		/* System.in
+		/* InputStream java.lang.System.in
 		 * 
 		 * "표준" 입력 스트림. 
 		 * 이 스트림은 이미 열려 있으며 입력 데이터를 제공할 준비가 되었습니다. 
@@ -23,7 +23,7 @@ public class ScannerEx {
 		//위에서 생성했던 scanner객체를 통해, java.util 패키지의 Scanner클래스 안에 있는 nextLine()메소드를 호출함
 		//건너뛴 한 줄에 입력했던 것을 문자열타입의 변수공간인 input에 저장한다
 		
-		/* Scanner.nextLine();
+		/* String java.util.Scanner.nextLine();
 		 * 
 		 * 현재 줄을 지나 이 스캐너를 진행하고 건너뛴 입력을 반환합니다.
 		 * 이 메서드는 끝에 있는 줄 구분 기호를 제외한 현재 줄의 나머지 부분을 반환합니다. 
@@ -39,7 +39,7 @@ public class ScannerEx {
 		 * 	IllegalStateException - 이 스캐너가 닫혀 있는 경우
 		 */
 		
-		/* Integer.parseInt();
+		/* int java.lang.Integer.parseInt();
 		 * 
 		 * 문자열을 정수로 해석합니다. 
 		 * 문자열의 문자는 모두 10진수여야 합니다.
