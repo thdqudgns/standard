@@ -5,7 +5,7 @@ import java.util.*;
 public class OperatorEx25 {
 	public static void main(String args[]) {
 		
-		//입력받은 문자가 숫자인지 영문자인지 확인하는 예제
+		//입력받은 문자가 숫자인지 영문자인지 확인하는 예제 + nextLine(), charAt(int index)
 		
 		Scanner scanner = new Scanner(System.in); //스캐너 객체를 생성하여 입력받을 준비를 한다
 		char ch = ' '; //공백으로 초기화
@@ -18,7 +18,7 @@ public class OperatorEx25 {
 		//건너뛴 한 줄에 입력했던 것들을 input변수에 문자열로 저장한다
 		//입력했던 문자열의 첫번째(0번째 인덱스) 문자 하나를 ch에 저장한다
 		
-		/* nextLine()
+		/* String java.util.Scanner.nextLine()
 		 * 현재 줄을 지나 이 스캐너를 진행하고 건너뛴 입력을 반환합니다.
 		 * 이 메서드는 끝에 있는 줄 구분 기호를 제외한 현재 줄의 나머지 부분을 반환합니다. 
 		 * 위치는 다음 줄의 시작 부분으로 설정됩니다.
@@ -33,7 +33,7 @@ public class OperatorEx25 {
 		 * 	IllegalStateException - 이 스캐너가 닫혀 있는 경우
 		 */
 		
-		/* charAt(int index)
+		/* char java.lang.String.charAt(int index)
 		 * 지정된 인덱스의 char 값을 반환합니다.
 		 * 인덱스의 범위는 0 ~ length() - 1 입니다. 
 		 * 배열 인덱싱과 같이 시퀀스의 첫 번째 문자 값은 인덱스 0, 다음 문자 값은 인덱스 1입니다.
