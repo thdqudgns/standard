@@ -3,8 +3,8 @@ package standard.chapter05;
 public class ArrayEx01 {
 	public static void main(String[] args) {
 		
-		//Array, 배열
-		//배열은 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것
+		//Array, 배열, 배열은 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것
+		
 		//각 저장공간이 연속적으로 배치되어 있다
 		//배열의 선언은 단지 참조변수를 위한 공간을 만드는 것에 불과하다
 		//배열의 생성을 위해서는 연산자 'new'와 함께 배열의 타입과 길이를 지정해 주어야 한다
