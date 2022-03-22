@@ -1,5 +1,7 @@
 package standard.chapter06;
 
+//인스턴스 다루기, 멤버변수의 값 바꾸기
+
 //여기에 적지 않아도, TvTest01에 정의되어 있어서 불러올 수 있다.
 class Tv { 
 	//Tv의 속성(멤버변수)
