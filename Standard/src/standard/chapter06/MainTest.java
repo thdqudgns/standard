@@ -1,6 +1,6 @@
 package standard.chapter06;
 
-//main 메서드의 재귀호출
+//main 메서드의 재귀호출 -> 무한호출에 빠진다
 
 class MainTest {
 	public static void main(String[] args) {
