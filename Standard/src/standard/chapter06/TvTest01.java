@@ -34,7 +34,7 @@ package standard.chapter06;
 // 속성(property) : 멤버변수(member variable), 특성(attribute), 필드(field), 상태(state)
 // 기능(function) : 메서드(method), 함수(function), 행위(behavior)
 
-class Tv {
+class Tv { //기본적으로 같은 패키지 안의 다른 클래스에서도 사용할 수 있다
 	//Tv의 속성(멤버변수)
 	String color;		// 색상
 	boolean power;		// 전원상태 (on/off)
