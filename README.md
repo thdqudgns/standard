@@ -1,3 +1,6 @@
+## 복사 위치(Fork)
+[자바의 정석 코드 원본](https://github.com/thdqudgns/javajungsuk3/tree/master/source)
+
 ## 목차 정리
 * [Chapter2 변수](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter02)
 * [Chapter3 연산자](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter03)
