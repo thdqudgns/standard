@@ -8,6 +8,9 @@
 * [Chapter5 배열(Array)](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter05)
 * [Chapter6 객체지향 프로그래밍1](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter06)
 * [Chapter7 객체지향 프로그래밍2](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter07)
+Chapter7 하는 중...
+---
+
 * [Chapter8 예외처리(Exception Handling)](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter08)
 * [Chapter9 java.lang패키지와 유용한 클래스](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter09)
 * [Chapter10 날짜와 시간 & 형식화](https://github.com/thdqudgns/standard/tree/main/Standard/src/standard/chapter10)
